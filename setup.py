@@ -6,6 +6,7 @@ setup(
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     include_package_data=True,
+    url='https://github.com/data-jeong/CoreStart'
     entry_points={
         'console_scripts': [
             'core_start=corestart.core_start:run',
